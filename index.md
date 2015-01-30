@@ -30,4 +30,5 @@ layout: home
   </div>
 </div>
 
+<div class="rectangle-top show-for-small-only"></div>
 <div class="triangle-top-left bg-light"></div>

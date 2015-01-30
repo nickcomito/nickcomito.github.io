@@ -171,9 +171,19 @@
   }
 }
 
+.rectangle-top {
+  background-color: $lighter;
+  height: 370px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: -10;
+}
+
 .triangle-top-left {
   @include transition(all .5s ease-in-out);
   background-color: $lighter;
+  display: none;
   height: 75vh;
   left: -50%;
   position: absolute;
@@ -182,6 +192,7 @@
   z-index: -10;
 
   @media #{$medium-up} {
+    display: block;
     height: 100vh;
     min-height: 875px;
     position: absolute;
