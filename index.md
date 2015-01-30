@@ -25,7 +25,7 @@ layout: home
   <div class="small-12 medium-6 right text-right columns">
     <div class="intro code">
       <h1 class="uppercase">Coder;</h1>
-      <p>Converting a design into functional user interface or website is just as fullfilling as the artwork itself. <strong>I love that I get paid to be nerdy</strong>. <a href="http://codepen.io/nickcomito/" target="_blank">My Codepen</a>, <a href="https://github.com/nickcomito">My Github</a></p>
+      <p>Converting a design into a functional user interface or website is just as fullfilling as the artwork itself. <strong>I love that I get paid to be nerdy</strong>. <a href="http://codepen.io/nickcomito/" target="_blank">My Codepen</a>, <a href="https://github.com/nickcomito">My Github</a></p>
     </div>
   </div>
 </div>
