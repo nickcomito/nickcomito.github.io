@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="small-12 medium-6 columns design journal-box light">
+    <span class="caption martop-2">Des!gn</span>
+    <div class="scroll-container martop-2">
+      {% for post in site.categories.design %}
+        <div class="journal-entry">
+          <span class="date">{{ post.date | date_to_long_string }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="small-12 medium-6 columns personal journal-box dark">
+    <span class="caption martop-2">Personal</span>
+    <div class="scroll-container martop-2">
+      {% for post in site.categories.personal %}
+        <div class="journal-entry">
+          <span class="date">{{ post.date | date_to_long_string }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="small-12 medium-6 columns code journal-box dark">
+    <span class="caption martop-2">Code;</span>
+    <div class="scroll-container martop-2">
+      {% for post in site.categories.code %}
+        <div class="journal-entry">
+          <span class="date">{{ post.date | date_to_long_string }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="small-12 medium-6 columns tidbits journal-box light">
+    <span class="caption martop-2">Tidbits</span>
+    <div class="scroll-container martop-2">
+      {% for post in site.categories.tidbit %}
+        <div class="journal-entry">
+          <span class="date">{{ post.date | date_to_long_string }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

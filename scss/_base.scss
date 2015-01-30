@@ -1,0 +1,194 @@
+// Base – Default HTML tag styling
+// Do not put CSS classes or IDs in here
+
+
+
+
+// GLOBAL
+// ------
+
+body {
+  background: #474747;
+  
+  font-family: $anchorText;
+  -webkit-font-smoothing: antialiased;
+  font-size: $scale-base;
+  line-height: 1.4375; // 23px/16px
+  overflow-x: hidden;
+}
+
+
+
+
+// TABLES
+// ------
+
+
+
+
+// TEXT
+// ----
+
+a {
+  text-decoration: none;
+  color: $personal;
+
+  &:hover {
+    color: #0094c6;
+    text-decoration: underline;
+  }
+}
+
+p {
+  margin: 0 0 $scale-base;
+  line-height: 1.4375; // 23px/16px
+  color: $darker;
+}
+
+// Headings
+
+h1, h2, h3, h4, h5, h6 {
+  color: $dark;
+  font-family: $headingText;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: $scale3;
+}
+
+h2 {
+  font-size: $scale2;
+}
+
+h3 {
+  font-size: $scale1;
+}
+
+h4 {
+  font-size: $scale-base;
+}
+
+h5 {
+  font-size: $scale-base;
+  @extend .uppercase;
+}
+
+h6 {
+  font-size: $scale-base;
+  @extend .uppercase;
+}
+
+
+// Lists
+
+ul, ol, dl {
+
+}
+
+li {
+  line-height: 1.4375; // 23px/16px
+  margin-bottom: $scale-2;
+}
+
+ul {
+  li {
+    list-style: disc;
+    margin-bottom: 0;
+
+    li {
+      list-style: square;
+
+      li {
+        list-style: circle;
+      }
+    }
+  }
+}
+
+ol {
+  li {
+    list-style: decimal;
+    margin-bottom: 0;
+
+    li {
+      list-style: lower-alpha;
+      li {
+        list-style: lower-roman;
+      }
+    }
+  }
+}
+
+
+dl dt {}
+
+dl dd {}
+
+
+// Blockquotes
+
+blockquote {
+  font-size: $scale2;
+  line-height: 1.1;
+  margin-bottom: $scale4;
+
+  p {
+    font-size: $scale2;
+    line-height: 1.1;
+  }
+
+  cite {
+    font-style: normal;
+    text-align: right;
+    color: #222;
+    font-size: $scale-base;
+  }
+}
+
+
+// Figures & Figcaptions
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-bottom: $scale-base;
+  padding: 4px;
+  background: $darkest;
+  color: $light;
+  @extend .text-small;
+  font-style: italic;
+}
+
+
+// MISCELLANEOUS
+// -------------
+
+hr {
+
+}
+
+sup {
+  vertical-align: top;
+  @extend .text-medium;
+}
+
+
+
+
+// FORMS
+// -----
+
+// Most form styling is handled by Foundation and can be modified in _settings.scss
+// But you can override some basic styles here.
+textarea {
+
+}
+
+select {
+
+}

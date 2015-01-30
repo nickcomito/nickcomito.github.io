@@ -1,0 +1,12 @@
+# Site settings
+title: Nick Comito &ndash; Designer, Coder, Photgrapher, Artist
+email: nickcomito@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Nick Comito's personal portfolio for photography, studio art, design and other odds and ends.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://nickcomito.me" # the base hostname & protocol for your site
+twitter_username: nickvcomito
+github_username:  nickcomito
+
+# Build settings
+markdown: kramdown

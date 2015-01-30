@@ -1,0 +1,589 @@
+
+// Reusables – Mixins, common classes & components
+// These styles are flexible enough to use across multiple projects
+
+
+
+
+// BUTTONS
+// -------
+
+.button, button {
+  // background-color: $c-primary;
+  @include box-shadow(0 3px 0px #0A527D);
+  @include border-radius(2px);
+  color: #fff;
+  font-family: $anchorText;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: $bold;
+  font-size: $scale-base;
+  @include transition(all .1s linear);
+  padding: $scale-base/4 $scale-base;
+
+  &:hover {
+    background-color: #2786c9;
+    // @include box-shadow(0 3px 0px $c-primary);
+    text-decoration: none;
+  }
+
+  &:active {
+    background: #09527d;
+    @include box-shadow(inset 0 3px 0px rgba(0,0,0,.5));
+  }
+
+  &.secondary {
+    color: #fff;
+    // background-color: $c-secondary;
+    @include box-shadow(0 3px 0px #247d77);
+
+    &:hover {
+      color: #fff;
+      background-color: #3ac7be;
+      // @include box-shadow(0 3px 0px $c-secondary);
+    }
+
+    &:active {
+      background: #b3b3b3;
+    }
+  }
+
+  &.bigger {
+    font-size: $scale1;
+    padding: $scale-2 $scale3;
+  }
+
+  &.big {
+    font-size: 18px;
+    padding: 6px inherit;
+  }
+}
+
+
+
+
+// MIXINS
+// ------
+
+// Gradient from top (default white) to bottom (default black)
+@mixin gradient-tb($top: #fff, $bottom: #000) {
+  @include background-image(linear-gradient(top, $top, $bottom));
+}
+
+// Gradient from left (default white) to right (default black)
+@mixin gradient-lr($left: #fff, $right: #000) {
+  @include background-image(linear-gradient(left, $left, $right));
+}
+
+
+
+
+// UTILITIES
+// ---------
+
+
+.clear {
+  clear: both;
+}
+
+
+// Spacing
+
+.nomar {
+  margin: 0;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.nopad-sides {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.marall-0 {
+  margin: 0;
+}
+
+.marall-1 {
+  margin: $scale-base;
+}
+
+.marall-2 {
+  margin: $scale2;
+}
+
+.marall-3 {
+  margin: $scale3;
+}
+
+.marall-4 {
+  margin: $scale4;
+}
+
+.marall-5 {
+  margin: $scale5;
+}
+
+.marbot-0 {
+  margin-bottom: 0;
+}
+
+.marbot-1 {
+  margin-bottom: $scale-base;
+}
+
+.marbot-2 {
+  margin-bottom: $scale2;
+}
+
+.marbot-3 {
+  margin-bottom: $scale3;
+}
+
+.marbot-4 {
+  margin-bottom: $scale4;
+}
+
+.marbot-5 {
+  margin-bottom: $scale5;
+}
+
+.martop-0 {
+  margin-top: 0;
+}
+
+.martop-1 {
+  margin-top: $scale-base;
+}
+
+.martop-2 {
+  margin-top: $scale2;
+}
+
+.martop-3 {
+  margin-top: $scale3;
+}
+
+.martop-4 {
+  margin-top: $scale4;
+}
+
+.martop-5 {
+  margin-top: $scale5;
+}
+
+.marleft-0 {
+  margin-left: 0;
+}
+
+.marleft-1 {
+  margin-left: $scale-base;
+}
+
+.marleft-2 {
+  margin-left: $scale2;
+}
+
+.marleft-3 {
+  margin-left: $scale3;
+}
+
+.marleft-4 {
+  margin-left: $scale4;
+}
+
+.marleft-5 {
+  margin-left: $scale5;
+}
+
+.marright-0 {
+  margin-right: 0;
+}
+
+.marright-1 {
+  margin-right: $scale-base;
+}
+
+.marright-2 {
+  margin-right: $scale2;
+}
+
+.marright-3 {
+  margin-right: $scale3;
+}
+
+.marright-4 {
+  margin-right: $scale4;
+}
+
+.marright-5 {
+  margin-right: $scale5;
+}
+
+.padall-1 {
+  padding: $scale-base;
+}
+
+.padall-2 {
+  padding: $scale2;
+}
+
+.padall-3 {
+  padding: $scale3;
+}
+
+.padall-4 {
+  padding: $scale4;
+}
+
+.padall-5 {
+  padding: $scale5;
+}
+
+.padbot-1 {
+  padding-bottom: $scale-base;
+}
+
+.padbot-2 {
+  padding-bottom: $scale2;
+}
+
+.padbot-3 {
+  padding-bottom: $scale3;
+}
+
+.padbot-4 {
+  padding-bottom: $scale4;
+}
+
+.padbot-5 {
+  padding-bottom: $scale5;
+}
+
+.padtop-1 {
+  padding-top: $scale-base;
+}
+
+.padtop-2 {
+  padding-top: $scale2;
+}
+
+.padtop-3 {
+  padding-top: $scale3;
+}
+
+.padtop-4 {
+  padding-top: $scale4;
+}
+
+.padtop-5 {
+  padding-top: $scale5;
+}
+
+.padleft-1 {
+  padding-left: $scale-base;
+}
+
+.padleft-2 {
+  padding-left: $scale2;
+}
+
+.padleft-3 {
+  padding-left: $scale3;
+}
+
+.padleft-4 {
+  padding-left: $scale4;
+}
+
+.padleft-5 {
+  padding-left: $scale5;
+}
+
+.padright-1 {
+  padding-right: $scale-base;
+}
+
+.padright-2 {
+  padding-right: $scale2;
+}
+
+.padright-3 {
+  padding-right: $scale3;
+}
+
+.padright-4 {
+  padding-right: $scale4;
+}
+
+.padright-5 {
+  padding-right: $scale5;
+}
+
+
+// Lists
+
+.no-bullets {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    @extend .no-bullets;
+    margin-bottom: $scale-2;
+  }
+}
+
+
+// Display
+
+.hidden {
+  visibility: hidden;
+  display: block;
+}
+
+.visible {
+  visibility: visible;
+  display: block;
+}
+
+.highlighted {
+  background: #fffeae;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+
+
+
+// BORDERS
+
+.border-top {
+  border-top: 1px solid #fff;
+}
+
+
+
+// TEXT
+// ----
+
+
+// Kerning
+
+.kern-tight {
+  letter-spacing: -0.6em; //-1px
+}
+
+.kern-normal {
+  letter-spacing: normal;
+}
+
+.kern-wide {
+  letter-spacing: 0.15em;
+}
+
+.kern-xwide {
+  letter-spacing: .13em; //2px
+}
+
+
+// Text Sizing
+
+.text-tiny {
+  font-size: $scale-2; // 8px
+}
+
+.text-small {
+  font-size: $scale-1; // 12.944px
+}
+
+.text-normal {
+  font-size: $scale-base; // 16px
+}
+
+.text-medium {
+  font-size: $scale1; // 20.943px
+}
+
+.text-large {
+  font-size: $scale2; // 25.888px
+}
+
+.text-xlarge {
+  font-size: $scale3; // 33.886px
+}
+
+.text-xxlarge {
+  font-size: $scale4; // 41.887px
+}
+
+.text-xxxlarge {
+  font-size: $scale5; // 54.828px
+}
+
+.text-huge {
+  font-size: $scale6; // 67.773px
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+// Text Utilities
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.weight-normal {
+  font-weight: $normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+// Fonts
+
+.anchorText {
+  font-family: $anchorText;
+}
+
+.headingText {
+  font-family: $headingText;
+}
+
+.caption {
+  @extend .uppercase;
+  @extend .kern-wide;
+  @extend .text-small;
+  display: block;
+  font-weight: 900;
+}
+
+
+
+
+// INPUT
+// -----
+
+input.inline {
+  width: auto;
+  float: left;
+  width: 75%;
+
+  @media #{$medium-up} {
+    width: 85%;
+  }
+}
+
+button.inline {
+  width: 25%;
+  
+  @media #{$medium-up} {
+    width: 15%;
+  }
+  height: 2.3rem;
+  @include border-radius(0 2px 2px 0);
+}
+
+
+
+
+// MISCELLANEOUS
+// -------------
+
+.not-mvp.active {
+  visibility: hidden;
+}
+
+.light {
+  background: $light;
+}
+
+.lighter {
+  background: $lighter;
+}
+
+.lightest {
+  background: $lightest;
+}
+
+.dark {
+  background: $dark;
+}
+
+.darker {
+  background: $darker;
+}
+
+.darkest {
+  background: $darkest;
+}
+
+.light-text {
+  h1,h2,h3,h4,h5,h6,p {
+    color: $lighter;
+  }
+
+  a {
+    color: $personal;
+  }
+}
+
+.dark-link {
+  color: #0094c6;
+}
+
+.date {
+  font-size: $scale-1;
+  font-weight: $bold;
+  color: #878787;
+}
+
+.circle-mask {
+  img {
+    @media #{$small-only} {
+      max-width: 150px;
+    }
+    max-width: 185px;
+    border: 10px solid rgba(255, 255, 255, .25);
+    @include border-radius(100%);
+    @include transition(border .5s linear);
+
+    &:hover {
+      border-color: rgba(255, 255, 255, .50);
+    }
+  }
+
+  &.small {
+    img {
+      border: 6px solid rgba(255, 255, 255, .25);
+      max-width: 76px;
+
+      @include transition(border .5s linear);
+
+      &:hover {
+        border-color: rgba(255, 255, 255, .50);
+      }
+    }
+  }
+}
+
+.text-light {
+  color: $lighter;
+}
