@@ -174,8 +174,8 @@
 .triangle-top-left {
   @include transition(all .5s ease-in-out);
   background-color: $lighter;
-  height: 50vh;
-  left: -54%;
+  height: 75vh;
+  left: -50%;
   position: absolute;
   top: 60px;
   width: 200%;
