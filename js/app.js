@@ -1,5 +1,9 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
+$(".lazy").lazyload({
+  effect: "fadeIn"
+});
+
 $(document).foundation();
 
 $(document).ready(function() {
@@ -12,10 +16,6 @@ $(document).ready(function() {
   	$('.primary-nav').toggleClass('show');
   	$(this).toggleClass('show');
 	  $(".primary-nav li").velocity("transition.perspectiveDownIn", {stagger: 50, duration: 300});
-  });
-
-  $("img.lazy").lazyload({
-    effect: "fadeIn"
   });
 
   $(".trigger-grid-view").click(function() {
