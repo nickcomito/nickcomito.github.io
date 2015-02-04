@@ -1,12 +1,12 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
-$(".lazy").lazyload({
-  effect: "fadeIn"
-});
-
 $(document).foundation();
 
 $(document).ready(function() {
+  $(function() {
+    $("img.lazy").lazyload();
+  });
+
 	// Setting the background angle (home page) with a little trig and window size calculation
 	// Found a handy JS Fiddle on Stack Overflow: http://bit.ly/1yhjDBA
 	var angle = Math.atan2($(window).width(), $(window).height());
