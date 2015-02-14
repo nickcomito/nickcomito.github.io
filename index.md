@@ -6,7 +6,7 @@ layout: home
   <div class="small-12 medium-6 columns">
     <div class="intro design">
       <h1 class="uppercase">Des!gner</h1>
-      <p><strong>I love that I get paid to be creative.</strong> My primary focus is interaction and visual design but I also enjoy other forms of art. <a href="http://nickcomito.vsco.co/grid/1" class="dark-link" target="_blank">iOS Photos</a>, <a href="photography.html" class="dark-link">SLR Photos</a></p>
+      <p><strong>I love that I get paid to be creative.</strong> My primary focus is interaction and visual design but I also enjoy other forms of art: <a href="http://nickcomito.vsco.co/grid/1" class="dark-link" target="_blank">iOS Photos</a>, <a href="artwork.html" class="dark-link">My artwork</a></p>
     </div>
   </div>
 </div>

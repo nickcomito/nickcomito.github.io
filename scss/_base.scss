@@ -55,11 +55,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $scale3;
+  font-size: $scale2;
+  @media #{$medium-up} {
+    font-size: $scale3;
+  }
 }
 
 h2 {
-  font-size: $scale2;
+  font-size: $scale1;
+  @media #{$medium-up} {
+    font-size: $scale2;
+  }
 }
 
 h3 {
