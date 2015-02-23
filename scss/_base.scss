@@ -12,7 +12,10 @@ body {
   font-family: $anchorText;
   -webkit-font-smoothing: antialiased;
   font-size: $scale-base;
-  line-height: 1.4375; // 23px/16px
+  line-height: 1.2;
+  @media #{$medium-up} {
+    line-height: 1.4375; // 23px/16px
+  }
   overflow-x: hidden;
 }
 
@@ -40,7 +43,9 @@ a {
 
 p {
   margin: 0 0 $scale-base;
-  line-height: 1.4375; // 23px/16px
+  @media #{$medium-up} {
+    line-height: 1.4375; // 23px/16px
+  }
   color: $darker;
 }
 

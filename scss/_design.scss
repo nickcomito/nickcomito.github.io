@@ -7,8 +7,25 @@
 }
 
 .post-content {
-  font-size: 1.35rem;
-  line-height: 1.4rem;
+  @media #{$medium-up} {
+    font-size: 1.35rem;
+    line-height: 1.4rem;
+  }
+}
+
+.post {
+  h1 {
+    font-size: $scale1;
+    @media #{$medium-up} {
+      font-size: $scale3;
+    }
+  }
+
+  .padright-5 {
+    @media #{$small-only} {
+      padding-right: 0;
+    }
+  }
 }
 
 .categories_personal {
