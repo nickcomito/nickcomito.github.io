@@ -10,3 +10,4 @@ I'm compiling an onging list of my favorite beers, mostly for myself, but I figu
 * Tank 7 Farmhouse Ale
 * Peroni
 * Jubilale (Seasonal)
+* Tyskie
