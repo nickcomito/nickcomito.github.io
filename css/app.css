@@ -3164,52 +3164,61 @@ h6 {
   font-size: 1.125rem;
 }
 
-/* line 101, ../scss/_base.scss */
+/* line 97, ../scss/_base.scss */
+pre {
+  background: #ccc;
+  font-size: 0.875rem;
+  overflow: scroll;
+  border: 1px solid #fff;
+  padding: 1.82rem;
+}
+
+/* line 111, ../scss/_base.scss */
 li {
   line-height: 1.4375;
   margin-bottom: 0.695rem;
 }
 
-/* line 107, ../scss/_base.scss */
+/* line 117, ../scss/_base.scss */
 ul li {
   list-style: disc;
   margin-bottom: 0;
 }
-/* line 111, ../scss/_base.scss */
+/* line 121, ../scss/_base.scss */
 ul li li {
   list-style: square;
 }
-/* line 114, ../scss/_base.scss */
+/* line 124, ../scss/_base.scss */
 ul li li li {
   list-style: circle;
 }
 
-/* line 122, ../scss/_base.scss */
+/* line 132, ../scss/_base.scss */
 ol li {
   list-style: decimal;
   margin-bottom: 0;
 }
-/* line 126, ../scss/_base.scss */
+/* line 136, ../scss/_base.scss */
 ol li li {
   list-style: lower-alpha;
 }
-/* line 128, ../scss/_base.scss */
+/* line 138, ../scss/_base.scss */
 ol li li li {
   list-style: lower-roman;
 }
 
-/* line 143, ../scss/_base.scss */
+/* line 153, ../scss/_base.scss */
 blockquote {
   font-size: 1.82rem;
   line-height: 1.1;
   margin-bottom: 2.945rem;
 }
-/* line 148, ../scss/_base.scss */
+/* line 158, ../scss/_base.scss */
 blockquote p {
   font-size: 1.82rem;
   line-height: 1.1;
 }
-/* line 153, ../scss/_base.scss */
+/* line 163, ../scss/_base.scss */
 blockquote cite {
   font-style: normal;
   text-align: right;
@@ -3217,12 +3226,12 @@ blockquote cite {
   font-size: 1.125rem;
 }
 
-/* line 164, ../scss/_base.scss */
+/* line 174, ../scss/_base.scss */
 figure {
   margin: 0;
 }
 
-/* line 168, ../scss/_base.scss */
+/* line 178, ../scss/_base.scss */
 figcaption {
   margin-bottom: 1.125rem;
   padding: 4px;
@@ -3231,7 +3240,7 @@ figcaption {
   font-style: italic;
 }
 
-/* line 185, ../scss/_base.scss */
+/* line 195, ../scss/_base.scss */
 sup {
   vertical-align: top;
 }

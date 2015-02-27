@@ -92,6 +92,16 @@ h6 {
 }
 
 
+// Code
+
+pre {
+  background: #ccc;
+  font-size: $scale-1;
+  overflow: scroll;
+  border: 1px solid #fff;
+  padding: $scale2;
+}
+
 // Lists
 
 ul, ol, dl {
