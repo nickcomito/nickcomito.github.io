@@ -14,3 +14,5 @@ Quotes I want to remember.
 "Write drunk, edit sober" &mdash; Ernest Hemingway
 
 "It is often easier to ask for forgiveness than to ask for permission." &mdash; Grace Hopper
+
+"Self labeling is dangerous stuff. Just do what you do". &mdash; Parker Palmer

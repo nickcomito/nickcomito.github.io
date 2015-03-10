@@ -560,7 +560,7 @@ button.inline {
     @media #{$small-only} {
       max-width: 150px;
     }
-    max-width: 185px;
+    max-width: 150px;
     border: 10px solid rgba(255, 255, 255, .25);
     @include border-radius(100%);
     @include transition(border .5s linear);

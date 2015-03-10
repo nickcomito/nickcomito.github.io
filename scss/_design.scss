@@ -3,7 +3,15 @@
 // --------
 
 .home {
-  background: #474747;
+  background: $darkest;
+}
+
+.post {
+  background: $lighter;
+
+  .site-header {
+    background: $darker;
+  }
 }
 
 .post-content {
@@ -29,7 +37,7 @@
 }
 
 .categories_personal {
-  background-color: #cee0de;
+  // background-color: #cee0de;
 
   .entries.personal {
     @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
@@ -49,11 +57,11 @@
 }
 
 .categories_design {
-  background-color: #d8cee0;
+  // background-color: #d8cee0;
 
   .entries.design {
     @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
-    background: $lighter;
+    // background: $lighter;
     border-top: 0;
     border-bottom: 0;
     color: #fff;
@@ -69,10 +77,10 @@
 }
 
 .categories_code {
-  background-color: #d2e0ce;
+  // background-color: #d2e0ce;
 
   .entries.code {
-    @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
+    // @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
     background: $lighter;
     border-top: 0;
     border-bottom: 0;
@@ -93,10 +101,10 @@
 }
 
 .categories_tidbit {
-  background-color: #ced8e0;
+  // background-color: #ced8e0;
 
   .entries.tidbits {
-    @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
+    // @include box-shadow(0 0 30px 10px rgba(0, 0, 0, .2));
     background: $lighter;
     border-top: 0;
     border-bottom: 0;
@@ -115,15 +123,19 @@
 // Header
 
 .site-header {
-  background: $dark;
-  border-top: 2px solid #10c6ae;
-  padding: $scale-2 0;
+  background: $darker;
+  border-top: 4px solid $personal;
+  padding: 6px 0;
   position: relative;
   z-index: 10;
 
   a {
-    color: $lighter;
+    color: $lightest;
   }
+}
+
+.logo {
+  max-width: 40px;
 }
 
 
@@ -143,24 +155,35 @@
 }
 
 .intro {
-  max-width: 400px;
+  max-width: 240px;
 
   @media #{$small-only} {
     margin: 0 auto;
-    padding: $scale3 0;
+    padding: $scale5 0;
     text-align: center;
   }
 
   @media #{$medium-up} {
-    padding: $scale4 0;
+    padding: $scale5 0;
 
     &.code {
-      padding: 0 0 $scale4;
+      float: right;
+      padding: 0 0 $scale5;
     }
 
     &.design {
-      padding: $scale4 0 0; 
+      position: relative;
+      padding: $scale5 0 0; 
+      top: 30px;
     }
+  }
+
+  @media #{$large-up} {
+    max-width: 300px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   h1 {
@@ -172,7 +195,7 @@
     }
 
     @media #{$large-up} {
-      font-size: $scale6;
+      font-size: $scale5;
     }
     line-height: 1;
   }
@@ -180,8 +203,13 @@
   &.design {
     h1,
     p {
-      color: $dark;
+      color: $darkest;
       margin: 7px 0 0;
+    }
+
+    a {
+      color: $darkest !important;
+      text-decoration: underline;
     }
   }
 
@@ -198,14 +226,13 @@
   background-color: $lighter;
   height: 380px;
   position: absolute;
-  top: 60px;
+  top: 55px;
   width: 100%;
   z-index: -10;
 }
 
 .triangle-top-left {
   @include transition(all .5s ease-in-out);
-  background-color: $lighter;
   display: none;
   height: 75vh;
   left: -50%;
@@ -215,16 +242,17 @@
   z-index: -10;
 
   @media #{$medium-up} {
+    background: $lighter;
     display: block;
     height: 100vh;
     min-height: 875px;
     position: absolute;
     left: -56%;
-    top: 0;
+    top: -45px;
     width: 100%;
-    transform: skew(-45deg);
-    -moz-transform: skew(-45deg);
-    -webkit-transform: skew(-45deg);
+    // transform: skew(-45deg);
+    // -moz-transform: skew(-45deg);
+    // -webkit-transform: skew(-45deg);
   }
 }
 
@@ -454,7 +482,8 @@
     }
 
     &:hover {
-      color: #fff;
+      color: $design;
+      text-decoration: none;
     }
   }
 
@@ -544,11 +573,11 @@
     }
 
     &.active {
-      border-color: #f3b914;
+      border-color: $design;
 
       .lg-square,
       .sm-square {
-        background-color: #f3b914;
+        background-color: $design;
       }
     }
   }
@@ -725,7 +754,7 @@
 }
 
 .entries {
-  background: $darker;
+  // background: $darker;
   padding: $scale2 0;
 
   li {
@@ -735,7 +764,7 @@
   }
 
   a {
-    color: $light;
+    color: $darker;
   }
 
   .no-bullets {
@@ -806,4 +835,8 @@
 .about {
   background: #575757 url(../images/nickoffice.jpg) no-repeat;
   background-size: cover;
+
+  .post {
+    background: transparent;
+  }
 }
