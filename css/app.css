@@ -2454,7 +2454,7 @@ th.hide-for-touch {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   color: #fff;
-  font-family: "calluna sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "calluna-sans", "Helvetica Neue", Arial, Sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -2935,12 +2935,12 @@ th.hide-for-touch {
 
 /* line 462, ../scss/_reuse.scss */
 .anchorText {
-  font-family: "calluna sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "calluna-sans", "Helvetica Neue", Arial, Sans-serif;
 }
 
 /* line 466, ../scss/_reuse.scss */
 .headingText {
-  font-family: "Museo Sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "museo-sans", "Helvetica Neue", Arial, Sans-serif;
 }
 
 /* line 470, ../scss/_reuse.scss */
@@ -3077,7 +3077,7 @@ button.inline {
 /* line 10, ../scss/_base.scss */
 body {
   background: #e1e1e1;
-  font-family: "calluna sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "calluna-sans", "Helvetica Neue", Arial, Sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 1.125rem;
   line-height: 1.2;
@@ -3116,7 +3116,7 @@ p {
 /* line 54, ../scss/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #575757;
-  font-family: "Museo Sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "museo-sans", "Helvetica Neue", Arial, Sans-serif;
   font-weight: 900;
   margin: 0;
   padding: 0;
@@ -3684,7 +3684,7 @@ sup {
 .primary-nav li {
   display: block;
   font-size: 16px;
-  font-family: "Museo Sans", "Helvetica Neue", Arial, Sans-serif;
+  font-family: "museo-sans", "Helvetica Neue", Arial, Sans-serif;
   font-weight: 100;
   line-height: 35px;
   list-style: none;
