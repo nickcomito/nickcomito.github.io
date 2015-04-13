@@ -53,28 +53,28 @@ I've been on NeonMob for several days now and I have learned my way around a bit
 
 I think a better experience would be to be able to scroll that section horizontally, bringing the user's profile up more, or just removing it altogether. I find myself asking: "who is this person?", "have they made any collections?", "what does he/she look like?" and the top section seems to push me away from finding those things out.
 
-* "What's Happening" section in the profile seems unrelated. I suppose the idea here is to playfully tease the user and show what other people are collection, what they're doing but I don't feel like it's a good place for it.
+* "What's Happening" section in the profile seems unrelated. I suppose the idea here is to playfully tease the user and show what other people are collecting and what they're doing but I don't feel like it's a good place for it.
 
-* I like the sections under a Mobster's profile: "collections created by", "recently collecting", "recent activity", but I'd like to see if an artist hasn't created any collections. (i.e. "no collections created yet").
+* When viewing a mobster's profile I think it would be helpful to see if he/she _hasn't_ created any collections. (i.e. "no collections created yet"). It seems unnecessary but this actually quickly lets me know if the person is a creator or not and where I'd find that information on others' profiles.
 
 <img src="/images/mobster-collection.png" alt="screenshot of NeonMob's member profile" />
 
-Seems unnecessary but this prevents me from trying to see if he/she has created anything or not.
-
-* Trading is intuitive but I found myself offering a trade and then having to check to see the rarity of my offer (mainly on a small screen). I had to jump out of the modal and then back in. Not a huge deal, but it's worth a mention.
+* Trading is really intuitive except for one thing: I found myself offering a trade and then having to check to see the rarity of my offer (mainly on a small screen). I had to jump out of the modal and then back in. Not a huge deal, but it's worth a mention.
 
 <br>
 
 ##Summary##
 <br>
-NeonMob is a fun place to collect and trade art. They've really done a good job recreating that childhood experience I mentioned earlier. The interface is beautiful, engaging, and fun. The personality, interaction, and animation is close to perfect. I haven't created my own collection _yet_ but I've dabbled in that area and that's intuitive and fun as well. I once heard a phrase: "heroine content" for sites/apps that had content that kept users coming back again and again. NeonMob definitely has this going for them. I find myself checking for new trades, new likes on submissions, etc.
+NeonMob is a fun place to collect and trade art. They've really done a good job recreating that childhood experience I mentioned earlier. The interface is beautiful, engaging, and fun. The personality, interaction, and animation is close to perfect. I haven't created my own collection _yet_ but I've dabbled in that area and that's intuitive and fun as well. I once heard the phrase: "heroine content" used to describe sites/apps that had content that kept users coming back again and again, like a drug. It's a bit of an edgy analogy but NeonMob definitely has this going for them. I find myself checking for new trades, new likes on submissions, etc.
 
 <img src="/images/robin-spirit.png" alt="screenshot of bestial spirits, Robin" />
 
-However, there are two areas that have a lot of room for improvement.
+On the flip side there are two areas that I think have a lot of room for improvement:
 
-* I think there is a critical piece missing to this community and that is the tangible nature of art. I don't feel like I truly own these prints. I can't have a deck sitting on my desk or hanging on my wall. In my opinion the art that I think is the most successful are the ones that feel physical, tangible (e.g. [Biotop](https://www.neonmob.com/collection/biotop-from-polygonia/)) because it starts to address this issue. I think it would be really cool if NeonMob offered a way to print a collection. Maybe a deck could come in various sizes, maybe collectors had the ability to print a couple for free? NeonMob could have branded packaging and artist's biography to make it even more special to own, to have a story behind the work.
+* I think there is a critical piece missing to this community and that is the lack of tangiblity of the art. I don't feel like I truly own these digital prints. I can't have a deck sitting on my desk or hanging on my wall. In my opinion the art that I think is the most successful are the ones that feel physical (e.g. [Biotop](https://www.neonmob.com/collection/biotop-from-polygonia/)) because it sort of addresses this issue. I think it would be really cool if NeonMob offered a way to print a collection. Maybe a deck could come in various sizes, maybe collectors had the ability to print a couple for free? NeonMob could have branded packaging and artist's biography to make it even more special to own, to have a story behind the work. I realize that NeonMob is a digital art collecting community but it's a big sticking point for me.
 
-* I think the social part of the community could be improved as well. NeonMob feels like it's close-nit, a place that's separated from Twitter and Facebook for a small niche group. I think there's room to amplify this aspect, to bring people together more and encourage more interaction.
+* Lastly, I think the social part of the community could be improved as well. NeonMob feels like it's close-nit, a place that's separated from Twitter and Facebook for a small niche group. I think there's room to amplify this aspect, to bring people together more and encourage more interaction.
+
+Even if NeonMob doesn't continue to iterate (which I'm sure they will) it's a fun place to be and the heart (or meat and potatoes if you prefer) is solid.
 
 That's all I've got... Thanks for reading and come [join me on NeonMob](https://www.neonmob.com/@silverfly?rc=4fMip&rs=reward)!
