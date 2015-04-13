@@ -4,7 +4,7 @@ category: design
 title: NeonMob UX Review
 ---
 
-In a nutshell [NeonMob](http://www.neonmob.com) is a web community for artists and collectors.
+In a nutshell [NeonMob](http://www.neonmob.com) is a web community for artists and collectors. Below is a 
 
 <img src="/images/biotop.png" alt="screenshot of NeonMob's Biotop" />
 
