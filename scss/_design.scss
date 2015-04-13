@@ -179,7 +179,7 @@
   }
 
   @media #{$large-up} {
-    max-width: 300px;
+    max-width: 310px;
   }
 
   p {
@@ -188,7 +188,7 @@
 
   h1 {
     font-size: $scale3;
-    font-weight: 900;
+    font-weight: $bold;
 
     @media #{$medium-up} {
       font-size: $scale4;
@@ -204,7 +204,7 @@
     h1,
     p {
       color: $darkest;
-      line-height: 1.25;
+      line-height: 1.35;
       margin: 7px 0 0;
     }
 
@@ -218,7 +218,7 @@
     h1,
     p {
       color: $lighter;
-      line-height: 1.25;
+      line-height: 1.35;
       margin: 7px 0 0;
     }
   }

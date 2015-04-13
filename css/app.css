@@ -3426,7 +3426,7 @@ sup {
 @media only screen and (min-width: 64.063em) {
   /* line 157, ../scss/_design.scss */
   .intro {
-    max-width: 300px;
+    max-width: 310px;
   }
 }
 /* line 185, ../scss/_design.scss */
@@ -3436,7 +3436,7 @@ sup {
 /* line 189, ../scss/_design.scss */
 .intro h1 {
   font-size: 2.291rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
 }
 @media only screen and (min-width: 40.063em) {
@@ -3455,7 +3455,7 @@ sup {
 .intro.design h1,
 .intro.design p {
   color: #303030;
-  line-height: 1.25;
+  line-height: 1.35;
   margin: 7px 0 0;
 }
 /* line 211, ../scss/_design.scss */
@@ -3467,7 +3467,7 @@ sup {
 .intro.code h1,
 .intro.code p {
   color: #e1e1e1;
-  line-height: 1.25;
+  line-height: 1.35;
   margin: 7px 0 0;
 }
 

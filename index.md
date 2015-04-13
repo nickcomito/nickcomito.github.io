@@ -25,7 +25,7 @@ layout: home
   <div class="small-12 medium-6 right text-right columns">
     <div class="intro code">
       <h1 class="uppercase">Coder;</h1>
-      <p>I translate designs into functional front-end interfaces, primarily with HTML, CSS and jQuery.</p>
+      <p>I translate designs into functional front-end interfaces, primarily with HTML, CSS, jQuery, love and patience.</p>
     </div>
   </div>
 </div>
