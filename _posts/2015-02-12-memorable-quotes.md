@@ -7,6 +7,8 @@ category: tidbit
 
 Quotes I want to remember.
 
+"Transformation is not a future event. It is a present activity." &mdash; Jillian Michaels
+
 "Whatever human beings create externally is a reflection of their inner state." &mdash; Eckhart Tolle
 
 "A riot is the language of the unheard" &mdash; Martin Luther King Jr.
