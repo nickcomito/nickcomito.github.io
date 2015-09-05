@@ -17,7 +17,7 @@ layout: home
     <div class="circle-mask text-center">
       <img src="images/nick.jpg" alt="Photo of Nick Comito" class="home-circle" />
     </div>
-    <span class="caption text-center text-light">Austin, TX</span>
+    <span class="caption text-center">Austin, TX</span>
   </div>
 </div>
 

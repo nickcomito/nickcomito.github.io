@@ -3,7 +3,7 @@
 // --------
 
 .home {
-  background: $darkest;
+  background: $lightest;
 }
 
 .post {
@@ -133,14 +133,14 @@
 // Header
 
 .site-header {
-  background: $darker;
+  background: $lightest;
   border-top: 4px solid $personal;
-  padding: 6px 0;
+  padding: 24px 0;
   position: relative;
   z-index: 10;
 
   a {
-    color: $lightest;
+    color: $darkest;
   }
 }
 
@@ -169,7 +169,7 @@
 
   @media #{$small-only} {
     margin: 0 auto;
-    padding: $scale5 0;
+    padding: $scale5 0 $scale1 0;
     text-align: center;
   }
 
@@ -198,7 +198,7 @@
 
   h1 {
     font-size: $scale3;
-    font-weight: $bold;
+    font-weight: $light;
     letter-spacing: 1px;
 
     @media #{$medium-up} {
@@ -211,7 +211,7 @@
     line-height: 1;
   }
 
-  &.design {
+  &.design, &.code {
     h1,
     p {
       color: $darkest;
@@ -222,15 +222,6 @@
     a {
       color: $darkest !important;
       text-decoration: underline;
-    }
-  }
-
-  &.code {
-    h1,
-    p {
-      color: $lighter;
-      line-height: 1.35;
-      margin: 7px 0 0;
     }
   }
 }
@@ -245,6 +236,7 @@
 }
 
 .triangle-top-left {
+  display: none;
   @include transition(all .5s ease-in-out);
   display: none;
   height: 75vh;
@@ -255,7 +247,7 @@
   z-index: -10;
 
   @media #{$medium-up} {
-    background: $lighter;
+    background: $lightest;
     display: block;
     height: 100vh;
     min-height: 875px;
@@ -273,10 +265,24 @@
 // Pre Footer
 
 .pre-footer {
-  background: $darker;
+  background: $darkest;
   padding: $scale-base 0;
   position: relative;
   z-index: 20;
+
+  small {
+    clear: both;
+    color: #aaa;
+    display: block;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 700px;
+
+    a {
+      color: #ccc;
+    }
+  }
 
   .social-list {
     margin: 0 auto;
@@ -311,10 +317,11 @@
 
       .caption.social {
         display: none;
-        top: 60px;
+        font-size: 12px;
+        top: 50px;
         color: #fff;
         width: 800px;
-        left: -20px;
+        left: -15px;
         position: absolute;
       }
 
@@ -520,8 +527,8 @@
   padding: 0 $scale-2;
 
   &.show {
-    border-color: #fff;
-    color: #fff;
+    border-color: $darkest;
+    color: $darkest;
   }
 }
 
