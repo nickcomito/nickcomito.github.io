@@ -18,3 +18,5 @@ Quotes I want to remember.
 "It is often easier to ask for forgiveness than to ask for permission." &mdash; Grace Hopper
 
 "Self labeling is dangerous stuff. Just do what you do". &mdash; Parker Palmer
+
+"The world is not comfortable with spaces, with silence. Every moment needs to be filled up with something" &mdash; Eckhart Tolle
