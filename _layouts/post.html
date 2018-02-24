@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="post">
+
+    {% include header.html %}
+
+    <div class="row">
+      <div class="small-12 medium-8 large-9 columns padtop-5 padright-5">
+        <hgroup class="design">
+          <span class="text-center date">{{ page.date | date: "%b %-d, %Y" }}</span>
+          <h1 class="marbot-0">{{ page.title }}</h1>
+        </hgroup>
+
+        <article class="post-content">
+          {{ content }}
+
+          <div class="small-12 columns text-large border-top padtop-1 martop-2 marbot-5">
+            {{% if page.previous %}}
+              <a rel="prev" href="{{ page.previous.url }}" class="left"><i class="fa fa-arrow-circle-left"></i> Older</a>
+            {{% endif %}}
+            {{% if page.next %}}
+              <a rel="next" href="{{ page.next.url }}" class="right">Newer <i class="fa fa-arrow-circle-right"></i> </a>
+            {{% endif %}}
+          </div>
+        </article>
+      </div>
+
+      <div class="small-12 medium-4 large-3 columns">
+        <div class="entries design">
+          <span class="caption">Des!gn</span>
+          <ul class="no-bullets">
+            {% for post in site.categories.design %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="entries code">
+          <span class="caption code">Code;</span>
+          <ul class="no-bullets">
+            {% for post in site.categories.code %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="entries tidbits">
+          <span class="caption tidbits">Tidbits</span>
+          <ul class="no-bullets">
+            {% for post in site.categories.tidbit %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="entries personal">
+          <span class="caption personal">Personal</span>
+          <ul class="no-bullets">
+            {% for post in site.categories.personal %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
