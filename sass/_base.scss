@@ -1,0 +1,21 @@
+body {
+	font-family: $font-regular;
+	font-weight: 500;
+}
+
+p {
+	color: $dark-brown;
+	font-family: $font-regular;
+	font-size: 19px;
+	line-height: 22px;
+}
+
+strong {
+	font-family: $font-bold;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: $blue-gray;
+	font-family: $font-headline;
+	font-weight: bold;
+}

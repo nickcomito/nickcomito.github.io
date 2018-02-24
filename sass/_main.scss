@@ -1,0 +1,254 @@
+.nav {
+	margin: 0 auto;
+	@include break($media-xs) {
+		float: right;
+	}
+}
+
+#home-billboard {
+	background-image: url(../images/bg-nick-comito-full-mobile.jpg);
+	background-position: 50% -70px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 500px;
+
+	@include break($media-xs) {
+		background-image: url(../images/bg-nick-comito-full.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center -100px;
+		margin: 0 auto;
+		
+		position: relative;
+	}
+
+	.rotate-title {
+		position: relative;
+		bottom: -370px;
+		@include break($media-xs) {
+			bottom: -345px;
+		}
+		width: 210px;
+		margin: 0 auto;
+	}
+}
+
+#about-billboard {
+	background-image: url(../images/bg-nick-comito-side.jpg);
+	background-position: 50% -70px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 500px;
+
+	@include break($media-xs) {
+		background-image: url(../images/bg-nick-comito-side.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center -100px;
+		margin: 0 auto;
+		
+		position: relative;
+	}
+}
+
+.lead {
+	padding-top: 50vw;
+	@include break($media-xs) {
+		padding-top: 25vw;
+	}
+	max-width: 430px;
+
+	.lg-title {
+		margin-bottom: 25px;
+		font-size: 38px;
+		line-height: 58px;
+		@include break($media-md) {
+			font-size: 48px;
+			line-height: 48px;
+		}
+	}
+
+	p {
+		color: #fff;
+		margin-top: 70vw;
+		width: 170px;
+		@include break($media-xs) {
+			color: $dark-brown;
+			margin-top: 35px;
+			width: auto;
+		}
+		font-size: 18px;
+	}
+}
+
+.beliefs {
+	padding-left: 42px;
+	position: relative;
+	top: 250px;
+	margin-top: 10vw;
+
+	li {
+		color: #fff;
+		font-size: 18px;
+		line-height: 25px;
+		padding-bottom: 35px;
+		@include break($media-md) {
+			padding-bottom: 52px;
+		}
+		position: relative;
+
+		&:before {
+			background: $red;
+			content: "";
+			display: block;
+			left: -42px;
+			position: absolute;
+			height: 70px;
+			top: -18%;
+			@include break($media-md) {
+				top: -12%;
+			}
+			width: 17.5px;
+		}
+
+		.emphasize {
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.highlight.red {
+	color: #fff;
+	padding-right: 15px;
+	position: relative;
+	z-index: 10;
+	display: block;
+	@include break($media-sm) {
+		display: inline-block;
+	}
+
+	&:before {
+		background: $red;
+		content: "";
+		display: block;
+		height: 70px;
+		left: -225%;
+		@include break($media-xs) {
+			left: -200%;
+		}
+		position: absolute;
+		width: 300%;
+		z-index: -10;
+		top: -15%;
+		@include break($media-md) {
+			top: -27%;
+		}
+	}
+}
+
+.selected {
+	margin-top: 35px;
+	margin-bottom: 70px;
+}
+
+.smallcaps {
+	font-family: $font-regular;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+footer {
+	border-top: 3px solid #000;
+	clear: both;
+	float: left;
+	margin-top: 140px;
+	padding: 35px 0;
+	text-align: center;
+	width: 100%;
+
+	li {
+		display: inline;
+		font-size: 15px;
+		list-style: none;
+		margin: 0 17.5px;
+		text-transform: uppercase;
+	}
+
+	.smallcaps {
+		display: block;
+		margin: 0 auto 35px;
+		position: relative;
+		width: 260px;
+		@include break($media-xs) {
+			display: inline;
+			float: left;
+			top: 0;
+			width: auto;
+		}
+	}
+	
+	.name:after {
+		display: inline-block;
+		background: $blue-gray;
+		border-radius: 6px;
+		bottom: 1px;
+		content: "";
+		height: 6px;
+		margin: 0 10px;
+		position: relative;
+		width: 6px;
+		@include break($media-xs) {
+			display: none;
+		}
+
+		@include break($media-sm) {
+			display: inline-block;
+		}
+	}
+
+	a {
+		color: $dark-brown;
+		display: block;
+		padding: 7px 0;
+
+		@include break($media-xs) {
+			display: inline;
+		}
+
+		&:hover {
+			color: $red;
+		}
+	}
+}
+
+.rotate-title {
+	transform: rotate(-270deg);
+	font-size: 42px;
+	color: #fff;
+}
+
+#selected-work {
+	padding-top: 280px;
+	text-align: center;
+
+	h3 {
+		color: $red;
+		font-size: 25px; 
+		margin-bottom: 20px;
+	}
+
+	ul {
+		margin-bottom: 70px;
+	}
+
+	li {
+		display: inline;
+		font-style: 15px;
+		line-height: 2;
+		text-transform: uppercase;
+		margin: 17.5px;
+	}
+}
