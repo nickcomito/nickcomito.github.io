@@ -1,0 +1,291 @@
+#selected-work {
+	box-sizing: border-box;
+	margin: 0 auto;
+
+	@include break($media-lg) {
+		width: 1024px;
+	}
+}
+
+.absolute-center {
+	position: absolute;
+	left: 50%;
+
+	img {
+		left: -50%;
+	}
+}
+
+.design-work {
+	margin-bottom: 280px;
+
+	img {
+		box-shadow: 0 30px 60px rgba(0,0,0,.3);
+		max-width: 100%;
+
+		&.no-shadow {
+			box-shadow: none;
+		}
+	}
+
+	&.mfe {
+		.images {
+			background: url("../images/portfolio/mfe-manual-bg.jpg") no-repeat;
+		}
+	}
+
+	&.pal {
+		.images {
+			background-image: linear-gradient(9deg, #61CCAA 0%, #904BDE 95%);
+		}
+	}
+
+	&.blu {
+		.images {
+			background: url("../images/portfolio/blu-homepage.jpg") no-repeat;
+			background-position: 50% 0;
+			background-size: 250%;
+			padding-bottom: 340px;
+
+			@include break($media-md) {
+				background-size: 100%;
+				padding-bottom: 1460px;
+			}
+		}
+	}
+
+	&.ral {
+		.images {
+			background: url("../images/portfolio/ral-map.jpg") no-repeat;
+			background-size: 250%;
+
+			@include break($media-md) {
+				background-size: 100%;
+				padding-bottom: 340px;
+			}
+		}
+	}
+}
+
+
+.images {
+	position: relative;
+
+	img {
+		position: relative;
+	}
+}
+
+
+// MFE //
+
+#mfe-scanner {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		top: 70px;
+	}
+}
+
+#mfe-gen-settings {
+	top: -35px;
+	left: -35px;
+	z-index: 20;
+	@include break($media-xs) {		
+		left: auto;
+	}
+	@include break($media-md) {
+		left: -270px;
+		left: 45vw; // modern browsers
+		top: -35px;
+	}
+}
+
+#mfe-plate-settings {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		left: -200px;
+		left: 35vw; // modern browsers
+		top: 35px;
+	}
+}
+
+#mfe-angle {
+	right: -25px;
+	top: 10px;
+	@include break($media-md) {
+		right: 50vw;
+		top: 105px;
+	}
+}
+
+#mfe-tabs {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+	}
+}
+
+#mfe-manual-mode {
+	top: 35px;
+	@include break($media-md) {
+		left: -70px;
+		top: 140px;
+	}
+}
+
+#mfe-mapping-mode {
+	top: 70px;
+	@include break($media-md) {
+		right: -35px;
+		bottom: -70px;
+	}
+}
+
+
+
+
+// PALATERRA //
+
+#pal-filters {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		top: 70px;
+	}
+}	
+
+#pal-metrics {
+	top: 35px;
+	@include break($media-md) {
+		left: 70px;
+		top: -140px;
+	}
+}
+
+#pal-job {
+	top: 35px;
+	@include break($media-md) {
+		top: 70px;
+	}
+}
+
+#pal-products {
+	top: 70px;
+	right: 35px;
+	@include break($media-md) {
+		display: inline-block;
+		right: -70px;
+		top: 35px;
+	}	
+}
+
+#pal-markets {
+	@include break($media-md) {
+		display: inline-block;
+		right: 70px;
+	}	
+}
+
+#pal-product-1 {
+	top: 70px;
+	@include break($media-md) {
+		top: 15px;
+	}
+}
+
+#pal-product-2 {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		position: absolute;
+		left: 105px;
+		bottom: -70px;
+		z-index: 1;
+	}
+}
+
+#pal-product-3 {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		position: absolute;
+		right: 105px;
+		bottom: -70px;
+		z-index: 1;
+	}
+}
+
+
+
+
+// BLUEBIRD //
+
+#blu-product {
+	left: -25px;
+	top: -35px;
+	@include break($media-md) {
+		position: absolute;
+		right: 70px;
+		top: -35px;
+		z-index: 30;
+	}
+}
+
+#blu-checkout {
+	top: 425px;
+	@include break($media-md) {
+		position: absolute;
+		left: -35px;
+		top: 350px;
+		z-index: 20;
+	}
+}
+
+#blu-coupon {
+	display: none;
+	@include break($media-md) {
+		display: inline-block;
+		right: -24vw;
+		top: 1200px;
+		z-index: 20;
+	}
+}
+
+
+
+
+// RAIL PROS //
+
+#ral-login {
+	top: -35px;
+	z-index: 20;
+}
+
+#ral-quick-sched {
+	left: 0;
+	top: 70px;
+	@include break($media-md) {
+		left: -70px;
+		position: absolute;
+		top: 215px;
+		z-index: 10;
+	}
+}
+
+#ral-quick-view {
+	top: 100px;
+	@include break($media-md) {
+		top: 560px;	
+	}
+}
+
+#ral-tomorrow {
+	top: 140px;
+	@include break($media-md) {
+		bottom: 70px;
+		right: 35px;
+		position: absolute;		
+	}
+}
