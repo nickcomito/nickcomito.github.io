@@ -796,7 +796,7 @@ footer a:hover {
 }
 /* line 44, ../sass/_portfolio.scss */
 .design-work.blu .images {
-  background: url("../images/portfolio/blu-homepage.jpg") no-repeat;
+  background: url("../images/portfolio/BLU-homepage.jpg") no-repeat;
   background-position: 50% 0;
   background-size: 250%;
   padding-bottom: 340px;
@@ -810,7 +810,7 @@ footer a:hover {
 }
 /* line 58, ../sass/_portfolio.scss */
 .design-work.ral .images {
-  background: url("../images/portfolio/ral-map.jpg") no-repeat;
+  background: url("../images/portfolio/RAL-map.jpg") no-repeat;
   background-size: 250%;
 }
 @media screen and (min-width: 955px) {

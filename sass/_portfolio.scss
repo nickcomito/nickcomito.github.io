@@ -42,7 +42,7 @@
 
 	&.blu {
 		.images {
-			background: url("../images/portfolio/blu-homepage.jpg") no-repeat;
+			background: url("../images/portfolio/BLU-homepage.jpg") no-repeat;
 			background-position: 50% 0;
 			background-size: 250%;
 			padding-bottom: 340px;
@@ -56,7 +56,7 @@
 
 	&.ral {
 		.images {
-			background: url("../images/portfolio/ral-map.jpg") no-repeat;
+			background: url("../images/portfolio/RAL-map.jpg") no-repeat;
 			background-size: 250%;
 
 			@include break($media-md) {
