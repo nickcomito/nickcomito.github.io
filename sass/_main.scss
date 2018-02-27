@@ -183,10 +183,10 @@ footer {
 		position: relative;
 		width: 260px;
 		@include break($media-xs) {
-			display: inline;
-			float: left;
-			top: 0;
-			width: auto;
+			// display: inline;
+			// float: left;
+			// top: 0;
+			// width: auto;
 		}
 	}
 	

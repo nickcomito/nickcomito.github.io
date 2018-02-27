@@ -405,15 +405,6 @@ footer .smallcaps {
   position: relative;
   width: 260px;
 }
-@media screen and (min-width: 520px) {
-  /* line 180, ../sass/_main.scss */
-  footer .smallcaps {
-    display: inline;
-    float: left;
-    top: 0;
-    width: auto;
-  }
-}
 /* line 193, ../sass/_main.scss */
 footer .name:after {
   display: inline-block;
