@@ -68,22 +68,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @font-face {
-  font-family: 'SofiaProRegular';
-  src: url("/../fonts/Sofia Pro Regular.otf") format("opentype");
-  /* Safari, Android, iOS */
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'SofiaProMedium';
-  src: url("/../fonts/Sofia Pro Medium.otf") format("opentype");
+  font-family: 'Metric';
+  src: url("/../fonts/Metric-Medium.otf") format("opentype");
   /* Safari, Android, iOS */
   font-weight: 500;
 }
 @font-face {
-  font-family: 'SofiaProBold';
-  src: url("/../fonts/Sofia Pro Bold.otf") format("opentype");
+  font-family: 'Tiempos';
+  src: url("/../fonts/TiemposText-Bold.otf") format("opentype");
   /* Safari, Android, iOS */
-  font-weight: 600;
+  font-weight: 700;
 }
 /* line 18, ../sass/_variables.scss */
 .brown {
@@ -154,27 +148,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/_base.scss */
 body {
-  font-family: metric, "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
   font-weight: 500;
 }
 
 /* line 6, ../sass/_base.scss */
 p {
   color: #38382E;
-  font-family: metric, "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
   font-size: 19px;
   line-height: 22px;
 }
 
 /* line 13, ../sass/_base.scss */
 strong {
-  font-family: metric, "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
 }
 
 /* line 17, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #414C5A;
-  font-family: "tiempos headline test";
+  font-family: "Tiempos", Palatino, serif;
   font-weight: bold;
 }
 
@@ -373,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 155, ../sass/_main.scss */
 .smallcaps {
-  font-family: metric, "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -594,7 +588,7 @@ footer a:hover {
   color: #fff;
   display: block;
   margin: 0 auto;
-  font-family: metric, "helvetica neue", helvetica, arial, sans-serif;
+  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 2.2;
   opacity: 0;

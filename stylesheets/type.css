@@ -1,18 +1,12 @@
 @font-face {
-  font-family: 'SofiaProRegular';
-  src: url("/../fonts/Sofia Pro Regular.otf") format("opentype");
-  /* Safari, Android, iOS */
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'SofiaProMedium';
-  src: url("/../fonts/Sofia Pro Medium.otf") format("opentype");
+  font-family: 'Metric';
+  src: url("/../fonts/Metric-Medium.otf") format("opentype");
   /* Safari, Android, iOS */
   font-weight: 500;
 }
 @font-face {
-  font-family: 'SofiaProBold';
-  src: url("/../fonts/Sofia Pro Bold.otf") format("opentype");
+  font-family: 'Tiempos';
+  src: url("/../fonts/TiemposText-Bold.otf") format("opentype");
   /* Safari, Android, iOS */
-  font-weight: 600;
+  font-weight: 700;
 }
