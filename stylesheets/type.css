@@ -5,8 +5,8 @@
   font-weight: 500;
 }
 @font-face {
-  font-family: 'Tiempos';
-  src: url("/../fonts/TiemposText-Bold.otf") format("opentype");
+  font-family: 'Tiempos HeadlineTest-Bold';
+  src: url("/../fonts/Tiempos HeadlineTest-Bold.otf") format("opentype");
   /* Safari, Android, iOS */
-  font-weight: 700;
+  font-weight: bold;
 }

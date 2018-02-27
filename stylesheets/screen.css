@@ -74,10 +74,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 500;
 }
 @font-face {
-  font-family: 'Tiempos';
-  src: url("/../fonts/TiemposText-Bold.otf") format("opentype");
+  font-family: 'Tiempos HeadlineTest-Bold';
+  src: url("/../fonts/Tiempos HeadlineTest-Bold.otf") format("opentype");
   /* Safari, Android, iOS */
-  font-weight: 700;
+  font-weight: bold;
 }
 /* line 18, ../sass/_variables.scss */
 .brown {
@@ -148,28 +148,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/_base.scss */
 body {
-  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: Metric, "helvetica neue", helvetica, arial, sans-serif;
   font-weight: 500;
 }
 
 /* line 6, ../sass/_base.scss */
 p {
   color: #38382E;
-  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: Metric, "helvetica neue", helvetica, arial, sans-serif;
   font-size: 19px;
   line-height: 22px;
 }
 
 /* line 13, ../sass/_base.scss */
 strong {
-  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: Metric, "helvetica neue", helvetica, arial, sans-serif;
 }
 
 /* line 17, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #414C5A;
-  font-family: "Tiempos", Palatino, serif;
-  font-weight: bold;
+  font-family: "Tiempos HeadlineTest-Bold", helvetica, serif;
 }
 
 /* line 1, ../sass/_main.scss */
@@ -367,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 155, ../sass/_main.scss */
 .smallcaps {
-  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: Metric, "helvetica neue", helvetica, arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -588,7 +587,7 @@ footer a:hover {
   color: #fff;
   display: block;
   margin: 0 auto;
-  font-family: "Metric", "helvetica neue", helvetica, arial, sans-serif;
+  font-family: Metric, "helvetica neue", helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 2.2;
   opacity: 0;
