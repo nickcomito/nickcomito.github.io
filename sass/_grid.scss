@@ -21,10 +21,23 @@
 	}
 }
 
+.cols-7 {
+	width: 74%;
+	@include break($media-xs) {
+		width: 57%;
+	}
+}
+
 .right {
 	float: right;
 }
 
 .left {
 	float: left;
+}
+
+.centered {
+	clear: both;
+	float: none;
+	margin: 0 auto;
 }

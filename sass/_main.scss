@@ -35,7 +35,7 @@
 
 #about-billboard {
 	background-image: url(../images/bg-nick-comito-side.jpg);
-	background-position: 50% -70px;
+	background-position: 42% -70px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-bottom: 500px;
@@ -49,24 +49,24 @@
 		
 		position: relative;
 	}
+
+	.rotate-title {
+		position: relative;
+		bottom: -440px;
+		@include break($media-xs) {
+			bottom: -410px;
+		}
+		width: 210px;
+		margin: 0 auto;
+	}
 }
 
-.lead {
+.lead.home {
 	padding-top: 50vw;
 	@include break($media-xs) {
 		padding-top: 25vw;
 	}
 	max-width: 430px;
-
-	.lg-title {
-		margin-bottom: 25px;
-		font-size: 38px;
-		line-height: 58px;
-		@include break($media-md) {
-			font-size: 48px;
-			line-height: 48px;
-		}
-	}
 
 	p {
 		color: #fff;
@@ -78,6 +78,41 @@
 			width: auto;
 		}
 		font-size: 18px;
+	}
+}
+
+.lead {
+	padding-top: 50vw;
+	@include break($media-xs) {
+		padding-top: 0;
+	}
+	
+}
+
+.about-para {
+	line-height: 26px;
+	margin-top: 240px;
+	@include break($media-xs) {
+		margin-top: 140px;
+	}
+}
+
+.intro {
+	position: relative;
+	top: 270px;
+	@include break($media-xs) {
+		top: 100px;
+	}
+	font-size: 22px;
+}
+
+.lg-title {
+	margin-bottom: 25px;
+	font-size: 38px;
+	line-height: 58px;
+	@include break($media-md) {
+		font-size: 48px;
+		line-height: 48px;
 	}
 }
 
@@ -143,6 +178,30 @@
 		top: -15%;
 		@include break($media-md) {
 			top: -27%;
+		}
+	}
+
+	&.align-right {
+		padding-left: 15px;
+		padding-right: 0;
+
+		&:before {
+			background: $red;
+			content: "";
+			display: block;
+			height: 70px;
+			left: auto;
+			right: -500%;
+			@include break($media-xs) {
+				right: -500%;
+			}
+			position: absolute;
+			width: 600%;
+			z-index: -10;
+			top: -15%;
+			@include break($media-md) {
+				top: -27%;
+			}
 		}
 	}
 }
