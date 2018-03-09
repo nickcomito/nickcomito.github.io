@@ -758,102 +758,108 @@ footer a:hover {
 @media screen and (min-width: 520px) {
   /* line 151, ../sass/_menu.scss */
   .header .smallcaps {
-    display: -moz-inline-stack;
-    display: inline-block;
     float: left;
     top: 0;
     width: auto;
   }
 }
 /* line 164, ../sass/_menu.scss */
-.header .smallcaps span {
-  display: -moz-inline-stack;
-  display: inline-block;
+.header .smallcaps .name, .header .smallcaps .role {
+  float: left;
+  position: relative;
 }
 @media screen and (min-width: 520px) {
   /* line 164, ../sass/_menu.scss */
-  .header .smallcaps span {
+  .header .smallcaps .name, .header .smallcaps .role {
     display: block;
+    float: none;
   }
 }
 @media screen and (min-width: 780px) {
   /* line 164, ../sass/_menu.scss */
-  .header .smallcaps span {
-    display: -moz-inline-stack;
-    display: inline-block;
+  .header .smallcaps .name, .header .smallcaps .role {
+    float: left;
   }
 }
-/* line 176, ../sass/_menu.scss */
+/* line 177, ../sass/_menu.scss */
+.header .smallcaps .name {
+  padding-right: 15px;
+}
+/* line 181, ../sass/_menu.scss */
+.header .smallcaps .role {
+  padding-left: 15px;
+}
+/* line 185, ../sass/_menu.scss */
 .header .smallcaps .name:after {
-  display: -moz-inline-stack;
-  display: inline-block;
+  display: block;
   background: #414C5A;
   border-radius: 6px;
   bottom: 1px;
   content: "";
+  right: -10px;
+  bottom: 7px;
   height: 6px;
   margin: 0 10px;
-  position: relative;
+  position: absolute;
   width: 6px;
 }
 @media screen and (min-width: 520px) {
-  /* line 176, ../sass/_menu.scss */
+  /* line 185, ../sass/_menu.scss */
   .header .smallcaps .name:after {
     display: none;
   }
 }
 @media screen and (min-width: 780px) {
-  /* line 176, ../sass/_menu.scss */
+  /* line 185, ../sass/_menu.scss */
   .header .smallcaps .name:after {
-    display: -moz-inline-stack;
     display: inline-block;
   }
 }
 
-/* line 198, ../sass/_menu.scss */
+/* line 207, ../sass/_menu.scss */
 .header {
   padding-top: 70px;
 }
 @media screen and (min-width: 520px) {
-  /* line 198, ../sass/_menu.scss */
+  /* line 207, ../sass/_menu.scss */
   .header {
     float: right;
   }
 }
-/* line 204, ../sass/_menu.scss */
+/* line 213, ../sass/_menu.scss */
 .header nav {
   float: left;
   margin-left: 35px;
   margin-bottom: 15px;
 }
 
-/* line 211, ../sass/_menu.scss */
+/* line 220, ../sass/_menu.scss */
 .social {
   clear: both;
   position: relative;
   top: 105px;
 }
 @media screen and (min-width: 520px) {
-  /* line 211, ../sass/_menu.scss */
+  /* line 220, ../sass/_menu.scss */
   .social {
     float: right;
     padding-right: 25px;
     top: 0;
   }
 }
-/* line 222, ../sass/_menu.scss */
+/* line 231, ../sass/_menu.scss */
 .social ul {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-/* line 228, ../sass/_menu.scss */
+/* line 237, ../sass/_menu.scss */
 .social li {
   display: inline;
   padding: 0 17.5px;
 }
 @media screen and (min-width: 520px) {
-  /* line 228, ../sass/_menu.scss */
+  /* line 237, ../sass/_menu.scss */
   .social li {
     display: block;
     margin-bottom: 35px;

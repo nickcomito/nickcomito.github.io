@@ -154,42 +154,51 @@
 	position: relative;
 	top: 70px;
 	width: 260px;
+
 	@include break($media-xs) {
-		display: -moz-inline-stack;
-		display: inline-block;
 		float: left;
 		top: 0;
 		width: auto;
 	}
-	span {
-		display: -moz-inline-stack;
-		display: inline-block;
+
+	.name, .role {
+		float: left;
+		position: relative;
+
 		@include break($media-xs) {
 			display: block;
+			float: none;
 		}
 		@include break($media-sm) {
-			display: -moz-inline-stack;
-			display: inline-block;
+			float: left;
 		}
 	}
 
+	.name {
+		padding-right: 15px;
+	}
+
+	.role {
+		padding-left: 15px;
+	}
+
 	.name:after {
-		display: -moz-inline-stack;
-		display: inline-block;
+		display: block;
 		background: $blue-gray;
 		border-radius: 6px;
 		bottom: 1px;
 		content: "";
+		right: -10px;
+		bottom: 7px;
 		height: 6px;
 		margin: 0 10px;
-		position: relative;
+		position: absolute;
 		width: 6px;
 		@include break($media-xs) {
 			display: none;
 		}
 
 		@include break($media-sm) {
-			display: -moz-inline-stack;
 			display: inline-block;
 		}
 	}
