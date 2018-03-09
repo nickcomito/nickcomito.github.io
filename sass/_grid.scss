@@ -1,7 +1,7 @@
 .contain {
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 0 25px;
+	padding: 0 15px;
 
 	@include break($media-lg) {
 		width: 1024px;
