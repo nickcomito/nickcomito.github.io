@@ -155,7 +155,7 @@
 	top: 70px;
 	width: 260px;
 	@include break($media-xs) {
-		display: inline;
+		display: inline-block;
 		float: left;
 		top: 0;
 		width: auto;
@@ -166,7 +166,7 @@
 			display: block;
 		}
 		@include break($media-sm) {
-			display: inline;
+			display: inline-block;
 		}
 	}
 
