@@ -161,7 +161,7 @@
 		width: auto;
 	}
 	span {
-		display: inline;
+		display: inline-block;
 		@include break($media-xs) {
 			display: block;
 		}

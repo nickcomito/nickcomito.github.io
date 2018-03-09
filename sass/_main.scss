@@ -5,10 +5,6 @@
 	}
 }
 
-body {
-	overflow-x: hidden;
-}
-
 #home-billboard {
 	background-image: url(../images/bg-nick-comito-full-mobile.jpg);
 	background-position: 50% -70px;
@@ -157,7 +153,7 @@ body {
 	}
 }
 
-.highlight.red {
+#home-billboard .highlight.red {
 	color: #fff;
 	padding-right: 15px;
 	position: relative;
@@ -184,28 +180,37 @@ body {
 			top: -27%;
 		}
 	}
+}
 
-	&.align-right {
-		padding-left: 15px;
-		padding-right: 0;
+#about-billboard .highlight.red {
+	color: #fff;
+	padding-right: 15px;
+	position: relative;
+	z-index: 10;
+	display: block;
+	@include break($media-sm) {
+		display: inline-block;
+	}
 
-		&:before {
-			background: $red;
-			content: "";
-			display: block;
-			height: 70px;
-			left: auto;
+	padding-left: 15px;
+	padding-right: 0;
+
+	&:before {
+		background: $red;
+		content: "";
+		display: block;
+		height: 70px;
+		right: auto;
+		right: -500%;
+		@include break($media-xs) {
 			right: -500%;
-			@include break($media-xs) {
-				right: -500%;
-			}
-			position: absolute;
-			width: 600%;
-			z-index: -10;
-			top: -15%;
-			@include break($media-md) {
-				top: -27%;
-			}
+		}
+		position: absolute;
+		width: 600%;
+		z-index: -10;
+		top: -15%;
+		@include break($media-md) {
+			top: -27%;
 		}
 	}
 }
