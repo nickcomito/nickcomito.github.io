@@ -758,30 +758,34 @@ footer a:hover {
 @media screen and (min-width: 520px) {
   /* line 151, ../sass/_menu.scss */
   .header .smallcaps {
+    display: -moz-inline-stack;
     display: inline-block;
     float: left;
     top: 0;
     width: auto;
   }
 }
-/* line 163, ../sass/_menu.scss */
+/* line 164, ../sass/_menu.scss */
 .header .smallcaps span {
+  display: -moz-inline-stack;
   display: inline-block;
 }
 @media screen and (min-width: 520px) {
-  /* line 163, ../sass/_menu.scss */
+  /* line 164, ../sass/_menu.scss */
   .header .smallcaps span {
     display: block;
   }
 }
 @media screen and (min-width: 780px) {
-  /* line 163, ../sass/_menu.scss */
+  /* line 164, ../sass/_menu.scss */
   .header .smallcaps span {
+    display: -moz-inline-stack;
     display: inline-block;
   }
 }
-/* line 173, ../sass/_menu.scss */
+/* line 176, ../sass/_menu.scss */
 .header .smallcaps .name:after {
+  display: -moz-inline-stack;
   display: inline-block;
   background: #414C5A;
   border-radius: 6px;
@@ -793,62 +797,63 @@ footer a:hover {
   width: 6px;
 }
 @media screen and (min-width: 520px) {
-  /* line 173, ../sass/_menu.scss */
+  /* line 176, ../sass/_menu.scss */
   .header .smallcaps .name:after {
     display: none;
   }
 }
 @media screen and (min-width: 780px) {
-  /* line 173, ../sass/_menu.scss */
+  /* line 176, ../sass/_menu.scss */
   .header .smallcaps .name:after {
+    display: -moz-inline-stack;
     display: inline-block;
   }
 }
 
-/* line 193, ../sass/_menu.scss */
+/* line 198, ../sass/_menu.scss */
 .header {
   padding-top: 70px;
 }
 @media screen and (min-width: 520px) {
-  /* line 193, ../sass/_menu.scss */
+  /* line 198, ../sass/_menu.scss */
   .header {
     float: right;
   }
 }
-/* line 199, ../sass/_menu.scss */
+/* line 204, ../sass/_menu.scss */
 .header nav {
   float: left;
   margin-left: 35px;
   margin-bottom: 15px;
 }
 
-/* line 206, ../sass/_menu.scss */
+/* line 211, ../sass/_menu.scss */
 .social {
   clear: both;
   position: relative;
   top: 105px;
 }
 @media screen and (min-width: 520px) {
-  /* line 206, ../sass/_menu.scss */
+  /* line 211, ../sass/_menu.scss */
   .social {
     float: right;
     padding-right: 25px;
     top: 0;
   }
 }
-/* line 217, ../sass/_menu.scss */
+/* line 222, ../sass/_menu.scss */
 .social ul {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-/* line 223, ../sass/_menu.scss */
+/* line 228, ../sass/_menu.scss */
 .social li {
   display: inline;
   padding: 0 17.5px;
 }
 @media screen and (min-width: 520px) {
-  /* line 223, ../sass/_menu.scss */
+  /* line 228, ../sass/_menu.scss */
   .social li {
     display: block;
     margin-bottom: 35px;

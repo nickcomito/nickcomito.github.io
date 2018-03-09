@@ -155,22 +155,26 @@
 	top: 70px;
 	width: 260px;
 	@include break($media-xs) {
+		display: -moz-inline-stack;
 		display: inline-block;
 		float: left;
 		top: 0;
 		width: auto;
 	}
 	span {
+		display: -moz-inline-stack;
 		display: inline-block;
 		@include break($media-xs) {
 			display: block;
 		}
 		@include break($media-sm) {
+			display: -moz-inline-stack;
 			display: inline-block;
 		}
 	}
 
 	.name:after {
+		display: -moz-inline-stack;
 		display: inline-block;
 		background: $blue-gray;
 		border-radius: 6px;
@@ -185,6 +189,7 @@
 		}
 
 		@include break($media-sm) {
+			display: -moz-inline-stack;
 			display: inline-block;
 		}
 	}
