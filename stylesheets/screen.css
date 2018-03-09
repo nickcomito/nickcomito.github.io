@@ -789,15 +789,17 @@ footer a:hover {
 }
 /* line 183, ../sass/_menu.scss */
 .header .smallcaps .role {
+  float: right;
   padding-left: 10px;
 }
-/* line 187, ../sass/_menu.scss */
+/* line 188, ../sass/_menu.scss */
 .header .smallcaps .name:after {
   display: block;
   background: #414C5A;
   border-radius: 6px;
   bottom: 1px;
   content: "";
+  display: none;
   right: 0;
   bottom: 7px;
   height: 6px;
@@ -805,62 +807,62 @@ footer a:hover {
   width: 6px;
 }
 @media screen and (min-width: 520px) {
-  /* line 187, ../sass/_menu.scss */
+  /* line 188, ../sass/_menu.scss */
   .header .smallcaps .name:after {
     display: none;
   }
 }
 @media screen and (min-width: 780px) {
-  /* line 187, ../sass/_menu.scss */
+  /* line 188, ../sass/_menu.scss */
   .header .smallcaps .name:after {
     display: inline-block;
   }
 }
 
-/* line 208, ../sass/_menu.scss */
+/* line 210, ../sass/_menu.scss */
 .header {
   padding-top: 70px;
 }
 @media screen and (min-width: 520px) {
-  /* line 208, ../sass/_menu.scss */
+  /* line 210, ../sass/_menu.scss */
   .header {
     float: right;
   }
 }
-/* line 214, ../sass/_menu.scss */
+/* line 216, ../sass/_menu.scss */
 .header nav {
   float: left;
   margin-left: 35px;
   margin-bottom: 15px;
 }
 
-/* line 221, ../sass/_menu.scss */
+/* line 223, ../sass/_menu.scss */
 .social {
   clear: both;
   position: relative;
   top: 105px;
 }
 @media screen and (min-width: 520px) {
-  /* line 221, ../sass/_menu.scss */
+  /* line 223, ../sass/_menu.scss */
   .social {
     float: right;
     padding-right: 25px;
     top: 0;
   }
 }
-/* line 232, ../sass/_menu.scss */
+/* line 234, ../sass/_menu.scss */
 .social ul {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-/* line 238, ../sass/_menu.scss */
+/* line 240, ../sass/_menu.scss */
 .social li {
   display: inline;
   padding: 0 17.5px;
 }
 @media screen and (min-width: 520px) {
-  /* line 238, ../sass/_menu.scss */
+  /* line 240, ../sass/_menu.scss */
   .social li {
     display: block;
     margin-bottom: 35px;

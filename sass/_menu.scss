@@ -181,6 +181,7 @@
 	}
 
 	.role {
+		float: right;
 		padding-left: 10px;
 	}
 
@@ -190,6 +191,7 @@
 		border-radius: 6px;
 		bottom: 1px;
 		content: "";
+		display: none;
 		right: 0;
 		bottom: 7px;
 		height: 6px;
